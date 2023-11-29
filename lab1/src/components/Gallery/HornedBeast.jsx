@@ -1,13 +1,20 @@
 import React from 'react';
+import Gallery from './Gallery';
+// import animals from '../../assets/animals.json'
 
-function HornedBeast(props) {
-  return (
-    <div className="horned-beast">
-      <h2>{props.title}</h2>
-      <img src={props.imageUrl} alt={props.title} />
-      <p>{props.description}</p>
-    </div>
-  );
+
+function HornedBeast(props){
+  return(
+<>
+{
+  props.list.map((animal,indx) => {
+ return <Gallery key={indx} name={animal.title} description={animal.description} img={animal.image_url}/>
+  
+  })
 }
+</>
+  )
+}
+
 
 export default HornedBeast;
