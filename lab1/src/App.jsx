@@ -1,19 +1,22 @@
-import React from 'react';
-
+import { useState } from "react";
 import Header from './components/Header/Header.jsx'
-import Gallery from './components/Gallery/Gallery.jsx'
 import Footer from './components/Footer/Footer.jsx'
+import HornedBeast from "./components/Gallery/HornedBeast.jsx";
+import animals from './assets/animals.json'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
+function App(){
 
-function AnimalHorns(){
-
-  return(
-    <>
-      <Header />
-      <Gallery />
-      <Footer />
-    </>
-  )
+return(
+  <main>
+    <Header title="Le beasts" items={animals.length} />
+    <HornedBeast list={animals}/>
+    <Footer content="&copy: Felix A. Taveras"/>
+  </main>
+)
 
 }
-        export default AnimalHorns;
+
+
+
+export default App;

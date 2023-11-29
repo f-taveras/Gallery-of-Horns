@@ -1,8 +1,12 @@
 import React from "react";
 
-function Footer(){
+function Footer(props){
     return(
-        <footer>&copy; Felix A. Taveras</footer>
+       <footer>
+        <div>
+            {props.content}
+        </div>
+       </footer>
     );
 };
 
