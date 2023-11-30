@@ -1,7 +1,7 @@
 # LAB - 1
 
 
-Teh beginning of HornedBeast
+HornedBeast
 
 ### Author: Felix A. Taveras
 
@@ -14,22 +14,11 @@ Teh beginning of HornedBeast
 
 * Lots of new things to learn. It seems like after getting the structure right, react will be more natural :D
 
-Number and name of feature: Feature #1: Display Images
+Number and name of feature: Feature #1: Display a Modal
 
-Estimate of time needed to complete: 30 mins
+Estimate of time needed to complete: 45 mins
 
-Finish time: Finished this yesterday on the expected time
+Finish time: 15 mins
 
+Lot faster than expected! 
 
-
-Number and name of feature: Feature #2: Allow users to favorite
-
-Estimate of time needed to complete: 1hr
-
-Took me about 30 mins
-
-
-
-Number and name of feature: Feature #3: Bootstrap
-
-This feature is on the works
