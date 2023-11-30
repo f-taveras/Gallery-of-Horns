@@ -1,0 +1,9 @@
+.heart-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heart-container .likes{
+    margin-right: 20px;
+}

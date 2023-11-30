@@ -1,6 +1,6 @@
 import React from 'react';
 import Gallery from './Gallery';
-// import animals from '../../assets/animals.json'
+
 
 
 function HornedBeast(props){
