@@ -1,6 +1,10 @@
 
 import React, { useState } from "react";
 import HornedBeast from "./HornedBeast";
+import Container from 'react-bootstrap/Container';
+
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function Gallery({ list }) {
   const [filterHorns, setFilterHorns] = useState(null);
@@ -25,9 +29,17 @@ function Gallery({ list }) {
           min="1"
         />
       </label>
-      {filteredList.map((beast) => (
-        <HornedBeast key={beast._id} {...beast} />
-      ))}
+      <Container>
+        <Row>
+          {filteredList.map((beast) => (
+
+            <Col key={beast._id} className="gallery-col">
+              <HornedBeast {...beast} />
+            </Col>
+          ))}
+        </Row>
+      </Container>
+
     </div>
   );
 }

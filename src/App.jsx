@@ -1,7 +1,6 @@
-import { useState } from "react";
 import Header from './components/Header/Header.jsx'
 import Footer from './components/Footer/Footer.jsx'
-import HornedBeast from "./components/Gallery/HornedBeast.jsx";
+
 import animals from './assets/animals.json'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Gallery from "./components/Gallery/Gallery.jsx";

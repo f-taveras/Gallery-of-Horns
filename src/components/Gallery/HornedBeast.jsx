@@ -30,9 +30,14 @@ function HornedBeast({ name, image_url, description }) {
 
     <Container>
       <Row>
-        <Col className="gallery-col">
-          <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" src={image_url} alt={name} onClick={handleModalShow} />
+        <Col xs={12} sm={6} md={4} lg={3} className="gallery-col">
+          <Card style={{ width: "18rem", margin:"1em" }}>
+            <Card.Img
+              variant="top"
+              src={image_url}
+              alt={name}
+              onClick={handleModalShow}
+            />
             <Card.Body>
               <Card.Title>{name}</Card.Title>
               <Card.Text>{description}</Card.Text>
